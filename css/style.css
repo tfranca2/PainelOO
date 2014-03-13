@@ -1,0 +1,231 @@
+/* formulários */
+#loginform {
+    width: 400px;
+    margin: 100px auto;
+}
+fieldset {
+    border: 1px solid #F4F4F4;
+    padding: 0 10px;
+}
+legend {
+    font-size: 16px;
+    padding: 0 10px;
+}
+form li {
+    padding: 5px;
+    margin-bottom: 1px;
+}
+form li.center {
+    text-align: center;
+}
+form li.left {
+    text-align: left;
+}
+form li.right {
+    text-align: right;
+}
+form input[type=submit], form input[type=button] {
+    cursor: pointer;
+    padding: 5px 25px;
+    border: 1px solid #CCC;
+    margin: 0 5px;
+}
+form input[type=submit]:hover, form input[type=button]:hover {
+    background: #F8F8F8;
+    border: 1px solid #666;
+}
+form label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}
+form label.error {
+    float: none;
+    display: block;
+    color: #F00;
+    width: auto;
+    text-align: left;
+    padding-left: 105px;
+}
+form input[type=text], form input[type=password], form textarea {
+    padding: 5px;
+    border: 1px solid #CCC;
+} 
+form input[type=text]:hover, form input[type=password]:hover, form textarea:hover {
+    background: #F8F8F8;
+    border: 1px solid #666;
+}
+
+form *, .radius5 {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+
+
+/* mensagens do sistema */
+.erro, .sucesso, .alerta, .pergunta {
+    width: 96%;
+    padding: 2%;
+    margin: 10px 0;
+}
+.sucesso {
+    background: #EFF4D4;
+    border: 1px solid #8FAD3D;
+    color: #596C26;
+}
+.alerta {
+    background: #FFEA97;
+    border: 1px solid #E2B500;
+    color: #995F5B;
+}
+.erro {
+    background: #EFCEC9;
+    border: 1px solid #AD3F30;
+    color: #943728;
+}
+.pergunta {
+    background: #C6D8F0;
+    border: 1px solid #4381CC;
+    color: #5C58B9;
+}
+
+
+
+/* painel */
+body.painel{
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    color: #333;
+    background: #F8F8F8;
+}
+a:link, a:active, a:visited{
+    text-decoration: none;
+    color: #09F;
+}
+a:hover{
+    text-decoration: underline;
+}
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #FFF;
+}
+#header{
+    height: 100px;
+    border-bottom: 2px solid #999;
+    padding: 10px; 
+}
+#header h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+#wrap-content{
+    display: table;
+    height: auto;
+    padding: 10px;
+}
+#content{
+    float: right;
+    width: 795px;
+    padding-left: 15px;
+}
+#content h2{
+    font-size: 20px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px
+}
+#sidebar{
+    float: left;
+    width: 150px;
+}
+#sidebar ul li{
+    padding: 2% 5%;
+    width: 90%;
+    background: #F0F0F0;
+    margin-bottom: 1px;
+    font-size: 16px;
+    display: block;
+}
+#accordion ul{
+    display: none;
+    margin: 5px 10px;
+}
+#accordion ul li{
+    padding: 2%;
+    width: 96%;
+    background: #F8F8F8;
+    margin-bottom: 2px;
+    display: block;
+    font-size: 14px;
+}
+#accordion .separador{
+	padding: 0 4%;
+	border:1px solid #CCC;
+	height: 0px;
+}
+#footer{
+    height: 20px;
+    border-top: 2px solid #999;
+    padding: 20px 10px;
+    text-align: center;
+}
+b,strong { 
+    font-weight: bold; 
+}
+
+
+
+/* exibição e envio de foto do usuario */
+#shell{
+    float: right;
+}
+#user, .inputFile {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+.inputFile { 
+    margin-right: 50%
+}
+#user img, .inputFile img  {
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+}
+.inputFile img {
+    position: absolute;
+}
+.disabled{
+    opacity: 0.5;
+}
+.inputFile input {
+    font-size: 125px;
+    opacity: 0;
+    cursor: pointer;
+    margin-left: -1500px;
+}
+#lblFoto{
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+
+
+
+/* datatable */
+.display{
+	border: 1px solid #CCC;
+	box-shadow: 1px 5px 5px ;
+}
+.display thead{
+	background-color: #DDD;
+	color: #777;
+}
